@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+        }
+
+        .login-box {
+            width: 900px;
+            margin: 40px auto;
+            padding: 100px 95px;
+            background-color: white;
+            box-shadow: 0 0 8px #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 55px;
+            color: #111;
+        }
+
+        label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 14px;
+        }
+
+        input {
+            width: 100%;
+            height: 58px;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+            font-size: 20px;
+            margin-bottom: 28px;
+            background-color: #eaf2ff;
+        }
+
+        .password-box {
+            position: relative;
+        }
+
+        .eye {
+            position: absolute;
+            right: 18px;
+            top: 15px;
+            font-size: 28px;
+        }
+
+        .login-btn {
+            width: 100%;
+            height: 60px;
+            background-color: #195a63;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 25px;
+            margin-bottom: 35px;
+        }
+
+        .login-btn:hover {
+            background-color: #12444b;
+        }
+
+        .link {
+            display: block;
+            color: #0066cc;
+            font-size: 20px;
+            text-decoration: none;
+            margin-bottom: 30px;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+
+        <h1>Sign In</h1>
+
+        <form>
+
+            <label>Username*</label>
+
+            <input type="text"
+                   placeholder="Enter username">
+
+
+            <label>Password*</label>
+
+            <div class="password-box">
+
+                <input type="password"
+                       placeholder="Enter password">
+
+                <span class="eye">👁</span>
+
+            </div>
+
+
+            <button class="login-btn">
+                Sign in
+            </button>
+
+
+            <a href="#" class="link">
+                Forgot username?
+            </a>
+
+            <a href="#" class="link">
+                Forgot password?
+            </a>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

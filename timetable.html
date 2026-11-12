@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>B.Tech I(A) CS Timetable</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 5px;
+        }
+
+        .top {
+            text-align: right;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        th {
+            height: 55px;
+        }
+
+        .day {
+            font-size: 38px;
+            font-weight: bold;
+        }
+
+        .subject {
+            font-size: 14px;
+        }
+
+        .teacher {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .time {
+            font-size: 10px;
+        }
+
+        .lunch {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .lab {
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top">
+        Session July-Dec 26 &nbsp;&nbsp;&nbsp;
+        W.E.F 3rd Sept 2026 &nbsp;|&nbsp; Version 7
+    </div>
+
+    <h1>B.tech-I(A)CS</h1>
+
+    <table>
+
+        <!-- Heading Row -->
+        <tr>
+            <th></th>
+
+            <th>
+                1<br>
+                <span class="time">9:30 - 10:30</span>
+            </th>
+
+            <th>
+                2<br>
+                <span class="time">10:30 - 11:30</span>
+            </th>
+
+            <th>
+                3<br>
+                <span class="time">11:30 - 12:30</span>
+            </th>
+
+            <th>
+                4<br>
+                <span class="time">12:30 - 1:30</span>
+            </th>
+
+            <th>LUNCH<br><span class="time">12:40 - 1:40</span></th>
+
+            <th>
+                5<br>
+                <span class="time">1:40 - 2:30</span>
+            </th>
+
+            <th>
+                6<br>
+                <span class="time">2:30 - 3:30</span>
+            </th>
+        </tr>
+
+
+        <!-- Monday -->
+        <tr>
+            <td class="day">Mo</td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                <span class="subject">
+                    Comm. Skill<br>(HUL0101)
+                </span><br><br>
+                <span class="teacher">MS. Vamika</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                <span class="subject">
+                    DLD<br>(CSL0109)
+                </span><br><br>
+                <span class="teacher">Dr. Pallavi Khatri</span>
+            </td>
+
+            <!-- Lab covers period 3 and 4 -->
+            <td colspan="2">
+                <b>MG-502 Lab</b><br><br>
+                <span class="lab">
+                    Programming and<br>
+                    problem solving in<br>
+                    C (CSL0102)
+                </span><br><br>
+                <span class="teacher">Trainer-3(C)</span>
+            </td>
+
+            <td class="lunch" rowspan="5">
+                LUNCH
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Linear Algebra &<br>
+                Calculus<br>
+                (MAL0104)<br><br>
+                <span class="teacher">Mr. Ravindra Ratior</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Aptitude &<br>
+                Reasoning<br>
+                (CST0101)<br><br>
+                <span class="teacher">Mr. Praveen</span>
+            </td>
+        </tr>
+
+
+        <!-- Tuesday -->
+        <tr>
+            <td class="day">Tu</td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Comm. Skill<br>
+                (HUL0101)<br><br>
+                <span class="teacher">MS. Vamika</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                DLD<br>
+                (CSL0109)<br><br>
+                <span class="teacher">Dr. Pallavi Khatri</span>
+            </td>
+
+            <td colspan="2">
+                <b>MG-502 Lab</b><br><br>
+                <span class="lab">
+                    Programming and<br>
+                    problem solving in<br>
+                    C (CSL0102)
+                </span><br><br>
+                <span class="teacher">Trainer-3(C)</span>
+            </td>
+
+            <td colspan="2" class="lab">
+                Library
+            </td>
+        </tr>
+
+
+        <!-- Wednesday -->
+        <tr>
+            <td class="day">We</td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Linear Algebra &<br>
+                Calculus<br>
+                (MAL0104)<br><br>
+                <span class="teacher">Mr. Ravindra Ratior</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Programming and<br>
+                problem solving in<br>
+                C<br>
+                (CSL0102)<br><br>
+                <span class="teacher">Trainer-3(C)</span>
+            </td>
+
+            <td colspan="2">
+                <b>MG-502 Lab</b><br><br>
+                <span class="lab">
+                    DLD<br>
+                    (CSL0109)
+                </span><br><br>
+                <span class="teacher">Dr. Pallavi Khatri</span>
+            </td>
+
+            <td colspan="2">
+                <b>MG-402</b><br><br>
+                <span class="lab">
+                    Project Studio-I<br>
+                    (CSD0111)
+                </span><br><br>
+                <span class="teacher">Ms. Anjali Saraswat</span>
+            </td>
+        </tr>
+
+
+        <!-- Thursday -->
+        <tr>
+            <td class="day">Th</td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Linear Algebra &<br>
+                Calculus<br>
+                (MAL0104)<br><br>
+                <span class="teacher">Mr. Ravindra Ratior</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Programming and<br>
+                problem solving in<br>
+                C<br>
+                (CSL0102)<br><br>
+                <span class="teacher">Trainer-3(C)</span>
+            </td>
+
+            <td colspan="2">
+                <b>MG-GF New Lab Eng</b><br><br>
+                <span class="lab">
+                    Comm. Skill<br>
+                    (HUL0101)
+                </span><br><br>
+                <span class="teacher">MS. Vamika</span>
+            </td>
+
+            <td colspan="2">
+                <b>MG-502 Lab</b><br><br>
+                <span class="lab">
+                    Digital Tools and<br>
+                    Git (CSP0104)
+                </span><br><br>
+                <span class="teacher">Mr. Neeraj Goyal</span>
+            </td>
+        </tr>
+
+
+        <!-- Friday -->
+        <tr>
+            <td class="day">Fr</td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Linear Algebra &<br>
+                Calculus<br>
+                (MAL0104)<br><br>
+                <span class="teacher">Mr. Ravindra Ratior</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                DLD<br>
+                (CSL0109)<br><br>
+                <span class="teacher">Dr. Pallavi Khatri</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Programming and<br>
+                problem solving in<br>
+                C<br>
+                (CSL0102)<br><br>
+                <span class="teacher">Trainer-3(C)</span>
+            </td>
+
+            <td>
+                <b>MG-402</b><br><br>
+                Aptitude &<br>
+                Reasoning<br>
+                (CST0101)<br><br>
+                <span class="teacher">Mr. Praveen</span>
+            </td>
+
+            <td colspan="2">
+                <b>LDV Lab</b><br><br>
+                <span class="lab">
+                    Digital Tools and<br>
+                    Git (CSP0104)
+                </span><br><br>
+                <span class="teacher">Mr. Neeraj Goyal</span>
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <small>Timetable generated: 9/2/2026</small>
+
+</body>
+</html>
